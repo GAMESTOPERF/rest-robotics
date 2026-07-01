@@ -1,0 +1,69 @@
+# ================================
+# Arduino / REST Robotics .gitignore
+# ================================
+
+# Arduino build output (generated when you compile — don't need to save these)
+build/
+*.elf
+*.hex
+*.bin
+*.map
+*.d
+*.o
+
+# Arduino IDE preferences and temp files
+*.bak
+*.tmp
+.arduino15/
+
+# Windows system files (OneDrive, File Explorer, etc.)
+desktop.ini
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+
+# Mac system files (if anyone opens this on a Mac)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code settings (keep your own, don't force them on others)
+.vscode/
+*.code-workspace
+
+# Log files
+*.log
+
+# Large media files — store these in Google Drive, not GitHub
+# GitHub has a 100MB file size limit and repos shouldn't be used for media
+*.mp4
+*.mp3
+*.mov
+*.avi
+*.wav
+*.m4a
+
+# Large image files (screenshots and photos go in Google Drive)
+# Small images used in docs are fine to keep
+*.psd
+
+# Compressed files (these are usually downloaded libraries — don't re-upload)
+*.zip
+*.tar.gz
+*.7z
+
+# Python cache (if you run any Python scripts for data analysis)
+__pycache__/
+*.pyc
+*.pyo
+
+# Compiled Python
+*.pyd
+
+# Node (if anyone uses Node tools)
+node_modules/
+
+# Secrets — NEVER commit passwords, API keys, or WiFi credentials
+secrets.h
+config_private.h
+credentials.h
