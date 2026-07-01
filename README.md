@@ -20,7 +20,7 @@ This repository contains all Arduino code, tools, and shared libraries for the t
 
 ```
 rest-robotics/
-├── rc-team/                  # RC / Mini IVD team code
+├── mini-ivd-team/                  # RC / Mini IVD team code
 │   ├── 2024-2025/
 │   └── 2025-2026/
 │       ├── milestones/       # Alpha, Bravo, Charlie submissions
